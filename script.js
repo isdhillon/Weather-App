@@ -23,6 +23,7 @@ searchBtn.addEventListener("click",function(){
     }
     //call the function for the selected city
     fetchData(selectedCity);
+    input.value=""
     
 })
 function fetchData(selectedCity){
@@ -57,6 +58,6 @@ function fetchData(selectedCity){
     })
     //if any error occurs
     .catch(()=>{
-        console.log("enter valid");
+        alert("enter a valid city name");
     })
 }
