@@ -1,0 +1,114 @@
+/*applied to all*/
+*{
+    box-sizing: border-box;
+}
+/*html tags*/
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    color: white;
+    font-size:4rem ;
+
+}
+sup{
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+/*Main Container*/
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a1f44;
+    background-image: linear-gradient(315deg, #36096d 0%, #0a1f44 74%);
+}
+/*Top container*/
+.top-container{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Mid container*/
+.mid-container{
+    height: 80%;
+    width: 100%;
+}
+.search-container{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    height: 40%;
+    width: 25%;
+    margin-right: 10px;
+}
+.search-btn{
+    height: 40%;
+    width: 15%;
+    background: darkred;
+    color: white;
+    font-size: 1.5rem;
+}
+/*Weather card container*/
+.weather-container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.weather-card{
+    height: 20rem;
+    width: 15rem;
+    background-color: white;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+.city{
+    height: 15%;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    font-size: 2rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+.temperature{
+    height: 20%;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0a1f44;
+}
+.icon{
+    height: 30%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.weather-info{
+    height: 10%;
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+}
